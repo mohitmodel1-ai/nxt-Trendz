@@ -1,0 +1,837 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+}
+.main-container-login{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-container{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 49px;
+    border-radius: 16px;
+}
+.image-container{
+    width: auto;
+    text-align: center;
+}
+.logo-image{
+    width: 300px;
+    margin: 10px;
+}
+.input{
+    width: 260px;
+    outline-color: rgb(166, 155, 155);
+    height: 30px;
+    margin: 12px;
+    padding: 4px;
+    margin-top: 5px;
+}
+.login-button-container{
+    width: auto;
+    text-align: center;
+}
+.login-button{
+    width: 280px;
+    margin: 12px;
+    padding: 12px;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.error-message{
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+
+
+
+
+
+.header-main-container{
+    display: flex;
+    height: 9vh;
+    justify-content: space-between;
+    padding: 12px;
+}
+.header-logo{
+    width: 180px;
+    margin: 8px;
+}
+.profile-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moon-sun{
+    font-size: 26px;
+    margin: 8px;
+}
+.profile-image{
+    width: 30px;
+    margin: 8px;
+}
+.button-logout{
+    width: 100px;
+    height: 30px;
+    margin: 8px;
+    border: none;
+    background-color: rgb(64, 64, 236);
+    border-radius: 12px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+.sidebar-main-container{
+    width: 15vw;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.ul-list{
+    list-style-type:none;
+}
+.ul-list li{
+    margin-left: -40px ;
+    font-size: 20px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;        
+}
+li:active{
+    color: red;
+}
+.sidebar-icon{
+    font-size: 21px;
+    margin: 5px;
+}
+.heading-sidebar{
+    margin: 12px;
+    font-size: 26px;
+    color: rgb(49, 48, 48);
+}
+.contact-logos{
+    margin: 12px;
+}
+.contact-logos img{
+    width: 40px;
+    margin-right: 9px;
+}
+.contact-para{
+    padding: 12px;
+    width: 13.5vw;
+    margin-left: -1px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: -8px;
+}
+
+
+
+.home-video-sidebar-container{
+    display: flex;
+}
+
+.video-main-container{
+    width: 85vw;
+    height: auto;
+}
+.bannar-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png");
+    width: auto;
+    padding: 20px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+.bannar-logo{
+    width: 200px;
+}
+.banner-button{
+    padding: 12px;
+}
+.bannar-para{
+    font-size: 24px;
+}
+.video-search-container{
+    padding: 12px;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+}
+.search-container input{
+    width: 290px;
+    margin-top: 10px;
+    padding: 8px;
+    padding-top: 9.8px;
+    border: 1px solid black;
+    border-right:0px;
+}
+.search-icon{
+    width: 20px;
+    padding: 8.5px;
+    margin-top: 9px;
+    border: 1px solid black;
+    border-left: 0px;
+    padding-bottom: 10px;
+}
+
+
+
+.hide-banner{
+    display: none;
+}
+.video-home{
+    width: 84vw;
+}
+
+.main-video-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+    overflow-x: scroll  ;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.video-thumbnail{
+    width: 375px;
+    height: 250px;
+    margin: 2px;
+    margin-top: 20px;
+}
+.video-profile-image{
+    width: 50px;
+}
+.video-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 392px;
+}
+.video-title img{
+    margin-right: 12px;
+    margin-top: 12px;
+}
+.views-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 500;
+    width: 300px;
+    
+}
+
+
+.trending-main-video-container{
+    width: 81vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start; 
+    padding: 12px;
+    height: 82.4vh;
+    overflow: scroll;
+}
+
+.trending-video-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.trending-video-title{
+    margin: 8px;
+}
+.trending-video-heading{
+    font-weight: 600;
+}
+.trending-heading-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fire-icon-trending{
+    color: red;
+    margin-right: 5px;
+    font-size: 50px; 
+}
+
+.home-page{
+    display: flex;
+    flex-direction: row;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.gaming-cotainer{
+    display: flex;
+}
+
+.gaming-image{
+    width: 290px;
+    margin: 12px;
+    height: 350px;
+}
+.gaming-side-container{
+    width: 83.4vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: 85.9vh;
+    overflow: scroll;
+}
+.gaming-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.gaming-content{
+    margin: 10px;
+    margin-top: -20px;
+}
+.gaming-logo-container{
+    display: flex;
+    width: 86vw;
+}
+
+.video-details-main-container{
+    width: 80vw;
+    height: auto;
+    background-color: beige;
+}
+
+.icon-saved{
+    width: 30px;
+    height: 30px;
+    margin: 9px;
+    color: red;
+}
+.saved-heading{
+    display: flex;
+    align-items: center;
+}
+.like-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-info-container{
+    display: flex;
+    align-items: center;
+
+}
+.like{
+    margin:8px;
+    font-size: 20px;
+}
+.like-para{
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.active-like{
+    color: blue;
+}
+.save-icon-trending{
+    color: red;
+    margin: 12px;
+
+}
+.save:active{
+    color: red;
+}
+
+.home-no-data-available{
+    width: 500px;
+    height: 450px;
+}
+.no-data-container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(59, 58, 58);
+}
+.no-saved-video-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.no-saved-video{
+    width: 600px;
+    height: 500px;
+}
+@media screen and (min-width:300px) and (max-width:430px) {
+    .gaming-side-container{
+        width: 100vw;
+    }
+    .video-thumbnail{
+        width: 270px;
+        height: 180px;
+    }
+    .gaming-image{
+        height: 300px;
+    }
+    .player-xl{
+        display: none;
+    }
+    .trending-main-video-container{
+        height: 120vh;
+        width: 100vw;
+    }
+    .main-video-container{
+        height: 100vh;
+        width: 100vw;
+        padding: 26px;
+    }
+    .header-container-main{
+        width: 100vw;
+    }
+    .video-main-container{
+        width: 100vw;
+        padding: 35px;
+    }
+    .video-search-container{
+        width: 100vw;
+    }
+    
+    .hide-sidebar{
+        display: none;
+    }
+    
+    
+    .banner{
+        width: 100vw;
+
+    }
+    .videos{
+        width: auto;
+    }
+    .video-thumb{
+        width: 330px;
+        height: 200px;
+    }
+    .logo{
+        width: 100px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .moon-sm{
+        width: 20px;
+        height: 20px;
+        margin: 8px;
+        margin-top: 20px;
+    }
+    .logout-btn{
+        display: none;
+    }
+    .list-sm{
+       margin: 8px;
+        margin-top: 13px;
+    }
+    .ul{
+      list-style-type: none;
+    }
+    .ul li{
+        margin: 9px;
+    }
+    
+    .hidelist{
+        display: none;
+    }
+    .video-title{
+        width: 340px;
+    }
+    .main-video-container{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 350px;
+    }
+    .trending-video-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .gaming-content{
+        margin-top: 1px;
+    }
+    .gaming-card-container{
+        display: flex;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .no-saved-video{
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+    }
+    .video-thumbnail-saved{
+        width: 340px;
+        margin: 0px;
+    }
+    
+    .video-player-container{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    .video-details-container{
+        width: 100vw;
+        height: 90vh;
+        padding: 20px;
+    }
+   
+}
+
+@media screen and (min-width:300px) and (max-width:800px) {
+    .header-main-container{
+        width: 100vw;
+    }
+    .video-profile-image{
+        width: 35px;
+    }
+    .player-xl{
+        display: none;
+    }
+    .player-md{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .video-details-container{
+        width: 100vw;
+        height: 90vh;
+        padding: 20px;
+    }
+    .trending-container-md{
+        display: flex;
+    }
+    .video-main-container{
+        width: 100vw;
+        padding: 35px;
+        margin-left: -12px;
+    }
+    .main-video-container{
+        height: 100vh;
+    }
+    .gaming-content{
+        margin: 2px;
+    }
+    .sidebar-main-container{
+        display: none;
+    }
+    .ul{
+        list-style-type: none;
+      }
+    .ul li{
+        margin: 9px;
+    }
+    .hidelist{
+        display: none;
+    }
+    .logout-btn{
+        display: none;
+    }
+    .list-sm{
+        margin: 12px;
+    }
+    .moon-sm{
+        width: 20px;
+        margin-top: 10px;
+    }
+    .logout-sm{
+        width: 20px;
+    }
+    .logo{
+        width: 100px;
+        margin-top: 20px;
+    }
+    .gaming-image{
+        width: 190px;
+    }
+    .gaming-side-container{
+        width: 100vw;
+        font-size: 12px;
+    }
+   
+    .trending-main-video-container{
+        width: 100vw;
+        height: 100vh;
+    }
+    .trending-container-md{
+        font-size: 14px;
+    }
+    .video-thumbnail{
+        width: 150px;
+        height: 100px;
+    }
+    .video-thumb{
+        width: 300px;
+        height: 150px;
+    }
+    .trending-video-title{
+        width: 300px;
+        margin-top: 20px;
+    }
+    .header-container-main{
+        width: 100vw;
+    }
+    .gaming-side-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-thumb{
+        width: 350px;
+        height: 190px;
+    }
+    .video-title{
+        width: 350px;
+        margin: 9px;
+        margin-right: -20px;
+    }
+    .video-player-container{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-container{
+        width: 110vw;
+    }
+}
+
+@media  screen and (min-width:801px) and (max-width:1200px){
+    .video-details-container{
+        width: 100vw;
+        height: 100vh;
+        padding: 20px;
+    }
+    .player-md{
+        height: 60%;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .video-main-container{
+        width: 100vw;
+    }
+    .gaming-content{
+        margin: 2px;
+        margin-left: 18px;
+    }
+    .video-thumb{
+        width: 350px;
+        height: 260px;
+        margin: 9px;
+    }
+    .video-title{
+        width: 350px;
+        margin: 9px;
+        margin-right: -15px;
+
+    }
+    .gaming-side-container{
+        width: 100vw;
+    }
+   
+    .sidebar-main-container{
+        display: none;
+    }
+    .ul{
+        list-style-type: none;
+    }
+    .ul li{
+      margin: 9px;
+    }
+    .hidelist{
+      display: none;
+    }
+    .logout-btn{
+      display: none;
+    }
+    .list-sm{
+      margin: 12px;
+    }
+    .moon-sm{
+      width: 20px;
+      margin-top: 10px;
+    }
+    .video-details-main-container{
+        width: 100vw;
+    }
+    .like-container{
+        width: 80vw;
+    }
+    .player-xl{
+        display: none;
+    }
+    .main-video-container{
+        width: 97vw;
+        height: 100vh;
+    }
+    .trending-main-video-container{
+        width: 100vw;
+    }
+    .video-thumb{
+        width: 350px;
+        height: 190px;
+    }
+    .video-title{
+        width: 350px;
+        margin: 9px;
+        margin-right: -20px;
+    }
+    .video-player-container{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media  screen and (min-width:1201px) and (max-width:2900px){
+    .player-md{
+        display: none;
+    }
+    
+    .player-xl{
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logout-sm{
+        display: none;
+    }
+    .video-details-container{
+        width: 85vw;
+        height: 86vh;
+        padding: 50px;
+        box-sizing: border-box;
+
+    }
+    .video-thumb{
+        width: 350px;
+        height: 190px;
+    }
+    .video-container{
+        margin: 9px;
+    }
+    .video-title{
+        width: 350px;
+        margin: 9px;
+        margin-right: -20px;
+    }
+    .gaming-content{
+        margin: 2px;
+        margin-left: 20px;
+    }
+    .gaming-side-container{
+        width: 100vw;
+        padding: 7px;
+    }
+    
+    .main-video-container{
+        height: 70vh;
+    }
+    .list-sm{
+        display: none;
+    }
+    .ul{
+        display: none;
+    }
+    .video-details-main-container{
+        width: 100vw;
+
+    }
+    .like-container{
+        width: 80vw;
+    }
+
+    .trending-main-video-container{
+        width: 100vw;
+    }
+    .video-player-container{
+        width: 85vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .trending-video-content{
+    margin-top: 20px;
+   }
+}
+
+.darkMode{
+    color: white;
+    background-color: rgb(50, 49, 49);
+}
+.dark{
+    color: black;
+}
+.player{
+    height: 100vh;
+}
+.list-md{
+    padding: 2px;
+}
+.header-logo{
+    margin-top: 20px;
+}
+.sidebar-main-container{
+    height: 90vh;
+}
+.trending-main-video-container{
+    height: 87vh;
+}
+.gaming-side-container{
+    height: 88.3vh;
+}
